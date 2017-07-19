@@ -1,0 +1,105 @@
+.navbar {
+    border: none;
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 0;
+}
+
+.activeColor {
+    color: #fb8b38!important;
+}
+
+.navbar-nav>li>a:hover {
+    color: #fb8b38!important;
+}
+
+.posa {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.item img,
+.carousel-inner,
+.item {
+    width: 100%;
+    height: 100%!important;
+}
+
+.carousel-control.right {
+    right: 0;
+    left: auto;
+    background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, .0001) 0, rgba(0, 0, 0, .1) 100%);
+    background-image: -o-linear-gradient(left, rgba(0, 0, 0, .0001) 0, rgba(0, 0, 0, .1) 100%);
+    background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, .0001)), to(rgba(0, 0, 0, .5)));
+    background-image: linear-gradient(to right, rgba(0, 0, 0, .0001) 0, rgba(0, 0, 0, .1) 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#00000000', endColorstr='#80000000', GradientType=1);
+    background-repeat: repeat-x;
+    line-height: 100%;
+}
+
+.carousel-indicators li {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    margin: 1px;
+    text-indent: -999px;
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0);
+    border: 1px solid #fb8b38;
+    border-radius: 10px;
+}
+
+.navbar-default .navbar-toggle {
+    border-color: #fb8b38;
+}
+
+.navbar-toggle:hover {
+    background-color: #fb8b38!important;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #fb8b38!important;
+}
+
+.navbar-default:hover.navbar-default .navbar-toggle .icon-bar {
+    background-color: #fff;
+}
+
+.slide {
+    height: 150px;
+}
+
+
+/* .navbar-nav>li>a {
+    border-bottom: 2px solid #fb8b38;
+} */
+
+.navbar-default .navbar-nav>li>a {
+    color: #333;
+    font-size: 16px;
+}
+
+@media (min-width: 768px) {
+    .navbar {
+        width: 970px;
+        margin: 0 auto;
+    }
+    .navbar-nav>li>a {
+        padding: 50px 20px;
+    }
+    .slide {
+        height: 700px;
+    }
+}
+
+@media (max-width: 970px) {
+    .navbar-nav>li:last-child {
+        display: none;
+    }
+}
+
+@media (min-width: 768px) {
+    .navbar {
+        border-radius: 0;
+    }
+}
