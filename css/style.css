@@ -66,10 +66,12 @@
 }
 
 .slide {
-    height: 150px;
+    height: 200px;
 }
 
-
+.carousel-indicators {
+    position: absolute;
+    bottom: -10px;
 /* .navbar-nav>li>a {
     border-bottom: 2px solid #fb8b38;
 } */
