@@ -141,6 +141,9 @@
     .navbar {
         border-radius: 0;
     }
+    .img-boxs img {
+        max-width: 70%!important;
+    }
 }
 
 .index-title {
@@ -185,7 +188,7 @@
     width: 100%;
     height: auto;
     margin-top: 1rem;
-    max-width: 90%;
+    max-width: 45%;
 }
 
 .bb-box {
@@ -196,8 +199,9 @@
     zoom: 100%;
 }
 
-.img-bg h3 {
-    font-size: 1.2rem;
+.img-boxs h3 {
+    font-size: 1rem;
     margin-top: 1rem;
     color: #333;
+    font-weight: bold;
 }
