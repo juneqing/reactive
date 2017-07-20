@@ -129,11 +129,7 @@
     }
 }
 
-@media (min-width: 970px) {
-    .img-boxs img {
-        margin-top: 1rem;
-    }
-}
+@media (min-width: 970px) {}
 
 @media (max-width: 970px) {
     .navbar-nav>li:last-child {
@@ -185,7 +181,23 @@
     color: #333;
 }
 
-.img-bg {
+.img-boxs img {
+    width: 100%;
+    height: auto;
+    margin-top: 1rem;
+    max-width: 90%;
+}
+
+.bb-box {
+    width: 100%;
     background: url(../images/u4_bg1.jpg)no-repeat;
     background-size: 100%;
+    background-position: 0px;
+    zoom: 100%;
+}
+
+.img-bg h3 {
+    font-size: 1.2rem;
+    margin-top: 1rem;
+    color: #333;
 }
