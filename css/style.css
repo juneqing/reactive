@@ -243,6 +243,257 @@
     margin: 0 auto;
     margin-top: 5rem;
     margin-bottom: 1rem;
+    position: relative;
+}
+
+.imgi-box>img {
+    top: 0;
+    left: 0;
+}
+
+.fc-u4__phone .big-circle {
+    width: 5rem;
+    height: 5rem;
+    margin-left: -2.5rem;
+    margin-top: -2.5rem;
+    background: url(../images/big-circle.png) no-repeat;
+    background-size: 100%;
+    animation: mymove 2s infinite;
+    -webkit-animation: mymove 2s infinite;
+}
+
+.small-circle {
+    width: 5rem;
+    height: 5rem;
+    margin-left: -2.5rem;
+    margin-top: -2.5rem;
+    background: url(../images/small-circle.png) no-repeat;
+    background-size: 100%;
+    animation: mymoves 2s infinite;
+    -webkit-animation: mymoves 2s infinite;
+}
+
+.circle-center {
+    width: 3rem;
+    height: 3rem;
+    margin-left: -1.5rem;
+    margin-top: -1.5rem;
+    background: url(http://fc-static.oss-cn-hangzhou.aliyuncs.com/site201605/img/index/circle-center.png) no-repeat;
+    background-size: 100%;
+    cursor: pointer;
+}
+
+
+/*Safari 和 Chrome:*/
+
+@-webkit-keyframes mymove {
+    0% {
+        transform: rotate(-0deg)
+    }
+    5% {
+        transform: rotate(-18deg)
+    }
+    10% {
+        transform: rotate(-36deg)
+    }
+    15% {
+        transform: rotate(-54deg)
+    }
+    20% {
+        transform: rotate(-72deg)
+    }
+    25% {
+        transform: rotate(-90deg)
+    }
+    30% {
+        transform: rotate(-108deg)
+    }
+    35% {
+        transform: rotate(-126deg)
+    }
+    40% {
+        transform: rotate(-144deg)
+    }
+    45% {
+        transform: rotate(-162deg)
+    }
+    50% {
+        transform: rotate(-180deg)
+    }
+    55% {
+        transform: rotate(-198deg)
+    }
+    60% {
+        transform: rotate(-216deg)
+    }
+    65% {
+        transform: rotate(-234deg)
+    }
+    70% {
+        transform: rotate(-252deg)
+    }
+    75% {
+        transform: rotate(-270deg)
+    }
+    80% {
+        transform: rotate(-288deg)
+    }
+    85% {
+        transform: rotate(-306deg)
+    }
+    90% {
+        transform: rotate(-324deg)
+    }
+    95% {
+        transform: rotate(-342deg)
+    }
+    100% {
+        transform: rotate(-360deg)
+    }
+}
+
+@keyframes mymoves {
+    0% {
+        transform: rotate(0deg)
+    }
+    5% {
+        transform: rotate(18deg)
+    }
+    10% {
+        transform: rotate(36deg)
+    }
+    15% {
+        transform: rotate(54deg)
+    }
+    20% {
+        transform: rotate(72deg)
+    }
+    25% {
+        transform: rotate(90deg)
+    }
+    30% {
+        transform: rotate(108deg)
+    }
+    35% {
+        transform: rotate(126deg)
+    }
+    40% {
+        transform: rotate(144deg)
+    }
+    45% {
+        transform: rotate(162deg)
+    }
+    50% {
+        transform: rotate(180deg)
+    }
+    55% {
+        transform: rotate(198deg)
+    }
+    60% {
+        transform: rotate(216deg)
+    }
+    65% {
+        transform: rotate(234deg)
+    }
+    70% {
+        transform: rotate(252deg)
+    }
+    75% {
+        transform: rotate(270deg)
+    }
+    80% {
+        transform: rotate(288deg)
+    }
+    85% {
+        transform: rotate(306deg)
+    }
+    90% {
+        transform: rotate(324deg)
+    }
+    95% {
+        transform: rotate(342deg)
+    }
+    100% {
+        transform: rotate(360deg)
+    }
+}
+
+
+/*Safari 和 Chrome:*/
+
+@-webkit-keyframes mymoves {
+    0% {
+        transform: rotate(0deg)
+    }
+    5% {
+        transform: rotate(18deg)
+    }
+    10% {
+        transform: rotate(36deg)
+    }
+    15% {
+        transform: rotate(54deg)
+    }
+    20% {
+        transform: rotate(72deg)
+    }
+    25% {
+        transform: rotate(90deg)
+    }
+    30% {
+        transform: rotate(108deg)
+    }
+    35% {
+        transform: rotate(126deg)
+    }
+    40% {
+        transform: rotate(144deg)
+    }
+    45% {
+        transform: rotate(162deg)
+    }
+    50% {
+        transform: rotate(180deg)
+    }
+    55% {
+        transform: rotate(198deg)
+    }
+    60% {
+        transform: rotate(216deg)
+    }
+    65% {
+        transform: rotate(234deg)
+    }
+    70% {
+        transform: rotate(252deg)
+    }
+    75% {
+        transform: rotate(270deg)
+    }
+    80% {
+        transform: rotate(288deg)
+    }
+    85% {
+        transform: rotate(306deg)
+    }
+    90% {
+        transform: rotate(324deg)
+    }
+    95% {
+        transform: rotate(342deg)
+    }
+    100% {
+        transform: rotate(360deg)
+    }
+}
+
+.big-circle,
+.circle-center,
+.small-circle {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    z-index: 2;
 }
 
 .toufanga h3 {
