@@ -127,6 +127,14 @@
     .slide {
         height: 700px;
     }
+    .img-boxs h3 {
+        font-size: 1.4rem!important;
+        margin-top: 1rem;
+        color: #333;
+        font-weight: bold;
+        line-height: 20px;
+        margin-bottom: 0;
+    }
 }
 
 @media (min-width: 970px) {}
@@ -187,16 +195,26 @@
 .img-boxs img {
     width: 100%;
     height: auto;
-    margin-top: 1rem;
-    max-width: 45%;
+    margin-top: 2rem;
+    max-width: 60%;
 }
 
 .bb-box {
     width: 100%;
     background: url(../images/u4_bg1.jpg)no-repeat;
-    background-size: 100%;
+    background-size: 100% 120%;
     background-position: 0px;
-    zoom: 100%;
+    /* zoom: 120%; */
+}
+
+.bar {
+    position: absolute;
+    margin-top: 1rem;
+    left: 50%;
+    margin-left: -2.8rem;
+    width: 5.6rem;
+    height: 3px;
+    background: #fb8b38;
 }
 
 .img-boxs h3 {
@@ -204,4 +222,6 @@
     margin-top: 1rem;
     color: #333;
     font-weight: bold;
+    line-height: 20px;
+    margin-bottom: 0;
 }
