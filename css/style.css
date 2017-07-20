@@ -307,3 +307,35 @@
     margin-top: 3rem;
     margin-bottom: 4rem;
 }
+
+.pingpai h3 {
+    margin: 0;
+    color: #333;
+    font-size: 1.6rem;
+    line-height: 2rem;
+    margin-top: 3rem;
+    font-weight: bold;
+}
+
+.pingpai img {
+    margin: 3rem auto;
+}
+
+.footer-box {
+    background: #fcfcfc;
+}
+
+.footer-box a {
+    color: #333;
+    font-size: 0.6rem;
+    display: inline-block;
+    width: 19%;
+    text-align: center;
+    line-height: 2rem;
+}
+
+.footer-box p {
+    font-size: 0.4rem;
+    color: #333;
+    line-height: 2rem;
+}
