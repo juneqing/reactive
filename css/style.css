@@ -284,7 +284,7 @@
     height: 3rem;
     text-align: center;
     line-height: 3rem;
-    font-size: 1.2rem;
+    font-size: 0.8rem;
     color: #fff;
     background: #fb8b38;
     border-radius: 3px;
@@ -294,14 +294,12 @@
 
 .text-block ul li {
     overflow: hidden;
-    margin-top: 6px;
     font-size: 0.4rem;
 }
 
 .text-block ul li strong {
     color: #443;
     font-size: 0.6rem;
-    margin-left: 1rem;
 }
 
 .text-block ul li span {
@@ -309,7 +307,7 @@
 }
 
 .text-block p {
-    margin: 1.8rem 0;
+    margin: 0.5rem 0;
     font-size: 0.4rem;
     line-height: 20px;
     color: #646464;
@@ -331,18 +329,29 @@
 
 .tabe-left-box {
     width: 70%;
-    height: 40px;
+    height: 2.2rem;
     text-align: center;
-    line-height: 40px;
+    line-height: 2.2rem;
     border-radius: 15px;
     margin-top: 30px;
     margin-left: 25px;
     cursor: pointer;
-    font-size: 0.8px;
+    font-size: 0.8rem;
     color: #333;
 }
 
 @media (min-width: 768px) {
+    .text-block p {
+        margin: 1.8rem 0;
+        font-size: 0.4rem;
+        line-height: 20px;
+        color: #646464;
+    }
+    .text-block ul li {
+        overflow: hidden;
+        margin-top: 6px;
+        font-size: 0.4rem;
+    }
     .collb {
         width: 100%;
         overflow: hidden;
