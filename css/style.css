@@ -176,6 +176,46 @@
     margin-top: 1rem;
 }
 
+.collb {
+    width: 100%;
+    overflow: hidden;
+}
+
+.guanzhu-box {
+    width: 8rem;
+    height: 3rem;
+    border-radius: 5px;
+    border: 2px solid #fb8b38;
+    text-align: center;
+    line-height: 3rem;
+    font-size: 0.8rem;
+    cursor: pointer;
+    margin: 2rem auto;
+    font-weight: bold;
+    position: relative;
+}
+
+.guanzhu-box:hover.guanzhu-box .guanzhu-boxs {
+    height: 8rem;
+}
+
+.guanzhu-boxs {
+    width: 8rem;
+    height: 0rem;
+    border-radius: 5px;
+    overflow: hidden;
+    position: absolute;
+    top: -8.2rem;
+    left: 0;
+    transition: height 0.5s;
+    -webkit-transition: height 0.5s;
+}
+
+.guanzhu-boxs img {
+    width: 100%;
+    height: 100%;
+}
+
 @media (min-width: 768px) {
     .navbar {
         width: 970px;
@@ -223,11 +263,22 @@
         margin-bottom: 1rem;
     }
     .coll-box>h5>span {
-        font-size: 0.8rem;
+        font-size: 0.6rem;
     }
     .coll-box div span {
         display: block;
+        font-size: 0.6rem;
+    }
+    .guanzhu-box {
+        width: 8rem;
+        height: 3rem;
+        border-radius: 5px;
+        border: 2px solid #fb8b38;
+        text-align: center;
+        line-height: 3rem;
         font-size: 0.8rem;
+        cursor: pointer;
+        margin: 4rem auto;
     }
 }
 
