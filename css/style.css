@@ -159,12 +159,12 @@
 }
 
 .coll-box>h5>span {
-    font-size: 0.4rem;
+    font-size: 0.5rem;
 }
 
 .coll-box div span {
     display: block;
-    text-indent: 0.4rem;
+    font-size: 0.5rem;
 }
 
 @media (min-width: 768px) {
@@ -218,7 +218,7 @@
     }
     .coll-box div span {
         display: block;
-        text-indent: 0.8rem;
+        font-size: 0.8rem;
     }
 }
 
