@@ -158,5 +158,14 @@
 <script>
     $('.carousel').carousel()
 </script>
+<script>
+    $(".tabe-left-box").eq(0).addClass("tabe-left-box-gb").siblings().removeClass("tabe-left-box-gb");
+    $(".tabe-right").eq(0).show().siblings(".tabe-right").hide();
+    $(".tabe-left-box").click(function() {
+        var i = $(this).index();
+        $(this).addClass("tabe-left-box-gb").siblings().removeClass("tabe-left-box-gb");
+        $(".tabe-right").eq(i).show().siblings(".tabe-right").hide();
+    })
+</script>
 
 </html>

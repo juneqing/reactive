@@ -332,15 +332,27 @@
     height: 2.2rem;
     text-align: center;
     line-height: 2.2rem;
-    border-radius: 15px;
+    border-radius: 5px;
     margin-top: 30px;
     margin-left: 25px;
     cursor: pointer;
-    font-size: 0.8rem;
+    font-size: 0.7rem;
     color: #333;
 }
 
 @media (min-width: 768px) {
+    .tabe-left-box {
+        width: 70%;
+        height: 2.2rem;
+        text-align: center;
+        line-height: 2.2rem;
+        border-radius: 15px;
+        margin-top: 30px;
+        margin-left: 25px;
+        cursor: pointer;
+        font-size: 0.8rem;
+        color: #333;
+    }
     .text-block p {
         margin: 1.8rem 0;
         font-size: 0.4rem;
