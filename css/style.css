@@ -158,6 +158,11 @@
     margin-top: 1.2rem;
 }
 
+.coll-box>h5 i {
+    font-size: 0.8rem;
+    margin-right: 0.2rem;
+}
+
 .coll-box>h5>span {
     font-size: 0.5rem;
 }
