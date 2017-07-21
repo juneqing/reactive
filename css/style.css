@@ -32,7 +32,7 @@
 
 .navbar {
     border: none;
-    background: rgba(255, 255, 255, 0.8);
+    background: #fff;
     border-radius: 0;
 }
 
@@ -116,6 +116,52 @@
     font-size: 16px;
 }
 
+.navbar-brand {
+    float: left;
+    height: auto;
+    /* padding: 15px 15px; */
+    font-size: 18px;
+    line-height: 20px;
+    margin-top: -10px;
+}
+
+.banner {
+    padding-top: 40px;
+}
+
+.coll-text1 {
+    margin: 0;
+    font-size: 1.4rem;
+    text-align: center;
+    color: #fb8b38;
+    margin-top: 3rem;
+}
+
+.coll-text2 {
+    margin: 0;
+    font-size: 1.2rem;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.coll-box {
+    width: 20%;
+    height: auto;
+    background: url(../images/cloud.png) no-repeat;
+    background-size: 98% 3rem;
+    float: left;
+}
+
+.coll-box>h5 {
+    color: #333;
+    font-size: 1rem;
+    line-height: 3rem;
+}
+
+.coll-box>h5>span {
+    font-size: 0.8rem;
+}
+
 @media (min-width: 768px) {
     .navbar {
         width: 970px;
@@ -123,6 +169,9 @@
     }
     .navbar-nav>li>a {
         padding: 50px 20px;
+    }
+    .navbar-nav>li:nth-child(1) {
+        padding: 0px 0px 0px 90px;
     }
     .slide {
         height: 700px;
@@ -134,6 +183,30 @@
         font-weight: bold;
         line-height: 20px;
         margin-bottom: 0;
+    }
+    .navbar-brand {
+        float: left;
+        height: auto;
+        /* padding: 15px 15px; */
+        font-size: 18px;
+        line-height: 20px;
+        margin-top: 24px;
+    }
+    .banner {
+        padding-top: 0px;
+    }
+    .coll-box {
+        width: 20%;
+        height: auto;
+        background: url(../images/cloud.png) no-repeat;
+        background-size: 98%;
+        float: left;
+    }
+    .coll-box>h5 {
+        color: #333;
+        font-size: 1rem;
+        line-height: 3rem;
+        text-indent: 0.4rem;
     }
 }
 
@@ -499,6 +572,8 @@
 .toufanga h3 {
     margin: 0;
     margin-top: 1rem;
+    font-weight: bold;
+    font-size: 1.6rem;
 }
 
 .index-icon-box i {
@@ -592,7 +667,7 @@
     color: #333;
     font-size: 0.6rem;
     display: inline-block;
-    width: 19%;
+    width: 18%;
     text-align: center;
     line-height: 2rem;
 }
