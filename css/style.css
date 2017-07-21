@@ -167,6 +167,10 @@
     font-size: 0.5rem;
 }
 
+.coll-box-s {
+    margin-top: 1rem;
+}
+
 @media (min-width: 768px) {
     .navbar {
         width: 970px;
