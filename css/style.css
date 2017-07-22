@@ -479,10 +479,9 @@
 
 .fc-process {
     width: 11%;
-    height: 300px;
+    height: auto;
     background: #fff;
     float: left;
-    padding: 20px 17px;
     margin-right: 24px;
     color: #5f5f5f;
     font-size: 0.3rem;
