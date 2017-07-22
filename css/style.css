@@ -482,9 +482,9 @@
     height: auto;
     background: #fff;
     float: left;
-    margin-right: 24px;
+    margin-right: 0.8rem;
     color: #5f5f5f;
-    font-size: 0.3rem;
+    font-size: 0.4rem;
     line-height: 1.2rem;
 }
 
