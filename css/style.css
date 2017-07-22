@@ -265,10 +265,18 @@
     margin-top: 1rem;
 }
 
-.logo-block,
-.logo-block img {
+.logo-block {
+    margin-bottom: 3px;
+}
+
+.logo-block {
     width: 100%;
     height: 100%;
+}
+
+.logo-block img {
+    width: 100%;
+    height: 99%;
 }
 
 .text-block ul {
@@ -338,6 +346,109 @@
     cursor: pointer;
     font-size: 0.7rem;
     color: #333;
+}
+
+.issue-center {
+    width: 100%;
+    height: auto;
+}
+
+.shoufenqing {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.shoufenqing-left {
+    float: left;
+    width: 30%;
+    height: auto;
+    background: #fff;
+}
+
+.shoufenqing-right {
+    overflow: hidden;
+    height: 100%;
+}
+
+.b1,
+.b2,
+.b3 {
+    overflow: hidden;
+    height: 100%;
+}
+
+.fq-boxs {
+    width: 80%;
+    margin: 0 auto;
+    border: 1px solid #fb8b38;
+    margin-top: 1.5rem;
+    background: #fff;
+}
+
+.fq-box-1 span {
+    display: inline-block;
+    width: 100%;
+    line-height: 1.4rem;
+    font-size: 0.8rem;
+    text-align: center;
+    font-weight: bold;
+    color: #333;
+    border-bottom: 1px solid #fb8b38;
+    cursor: pointer;
+}
+
+.shoufenqing-right-box {
+    width: 100%;
+    float: left;
+    text-indent: 2rem;
+    background: #fff;
+    height: 100%;
+}
+
+.shoufenqing-right-box h1 {
+    font-size: 1rem;
+    color: #333;
+    margin-top: 1.5rem;
+}
+
+.shoufenqing-right-box p {
+    margin-top: 1rem;
+    font-size: 0.7rem;
+    color: #333;
+    line-height: 1rem;
+    letter-spacing: 0.1rem;
+}
+
+.shoufenqing-right-box {
+    display: none;
+}
+
+.auto {
+    height: 100%!important;
+}
+
+.bgc {
+    background: #fb8b38;
+    color: #fff!important;
+}
+
+.fq-box-1 ul {
+    height: 0px;
+    overflow: hidden;
+    margin: 0;
+}
+
+.fq-box-1 ul li {
+    line-height: 0.8rem;
+    color: #333;
+    font-size: 0.6rem;
+    margin-top: 0.2rem;
+    text-align: left;
+    padding-left: 14px;
+    width: 100%;
+    cursor: pointer;
 }
 
 @media (min-width: 768px) {
