@@ -595,6 +595,7 @@
     padding: 1rem 1rem 3rem;
     background: #fff;
     float: left;
+    margin-top: 1rem;
 }
 
 .fc-news-detail__title {
@@ -651,7 +652,7 @@
 
 .fc-news-detail__content p {
     font-size: 0.6rem;
-    line-height: 0.8rem;
+    line-height: 1rem;
 }
 
 .fc-news-detail__title .fc-news-detail__page a {
@@ -665,6 +666,7 @@
     height: 100%;
     margin-left: 4%;
     float: left;
+    margin-top: 1rem;
 }
 
 .fc-news-detail__right .news-ad {
