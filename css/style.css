@@ -355,7 +355,7 @@
 
 .shoufenqing {
     width: 100%;
-    height: 800px;
+    height: 500px;
     margin: 0 auto;
     overflow: hidden;
 }
@@ -444,6 +444,12 @@
 }
 
 @media (min-width: 768px) {
+    .shoufenqing {
+        width: 100%;
+        height: 800px;
+        margin: 0 auto;
+        overflow: hidden;
+    }
     .fq-box-1 ul li {
         line-height: 0.8rem;
         color: #333;
