@@ -355,7 +355,7 @@
 
 .shoufenqing {
     width: 100%;
-    height: 300px;
+    height: auto;
     margin: 0 auto;
     overflow: hidden;
 }
@@ -395,7 +395,7 @@
 .shoufenqing-right-box {
     width: 100%;
     float: left;
-    text-indent: 2rem;
+    text-indent: 0.5rem;
     background: #fff;
     height: 100%;
 }
@@ -444,6 +444,13 @@
 }
 
 @media (min-width: 768px) {
+    .shoufenqing-right-box {
+        width: 100%;
+        float: left;
+        text-indent: 2rem;
+        background: #fff;
+        height: 100%;
+    }
     .shoufenqing {
         width: 100%;
         height: 800px;
