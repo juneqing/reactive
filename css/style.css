@@ -550,6 +550,42 @@
     font-size: 0.6rem;
 }
 
+.jubao {
+    position: relative;
+}
+
+.jubao:hover.jubao a .jibao-box {
+    display: block;
+}
+
+.jibao-box {
+    display: none;
+    padding: 5px 0 20px;
+    position: absolute;
+    left: 50%;
+    margin-left: -135px;
+    top: 90px;
+    border: 1px solid #f1f1f1;
+    -webkit-box-shadow: 0 2px 8px #f1f1f1 inset;
+    box-shadow: 0 2px 8px #f1f1f1 inset;
+    width: 267px;
+    background-color: #fff;
+    z-index: 10;
+    text-align: center;
+}
+
+.jubao h3 {
+    font-size: 16px;
+    color: #333;
+    line-height: 20px;
+}
+
+.jubao p {
+    font-size: 14px;
+    color: #333;
+    line-height: 20px;
+}
+
 .hpd {
     padding-bottom: 2rem;
 }
