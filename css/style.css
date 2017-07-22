@@ -590,7 +590,137 @@
     padding-bottom: 2rem;
 }
 
+.fc-news-detail__left {
+    width: 60%;
+    padding: 1rem 1rem 3rem;
+    background: #fff;
+    float: left;
+}
+
+.fc-news-detail__title {
+    position: relative;
+}
+
+.fc-news-detail__title {
+    padding-bottom: 2rem;
+    color: #000;
+    border-bottom: 1px solid #cecece;
+}
+
+.fc-news-detail__title .date {
+    font-size: 1rem;
+    font-family: Arial;
+    font-weight: 700;
+}
+
+.fc-news-detail__title .date span {
+    display: block;
+}
+
+.fc-news-detail__title .date span+span {
+    margin: -3px 0 0 3px;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.fc-news-detail__title .title {
+    margin-top: 0.2rem;
+    margin-left: 0.8rem;
+    font-size: 0.8rem;
+}
+
+.fc-news-detail__title .title h4 {
+    font-size: 0.8rem;
+}
+
+.fc-news-detail__title .title .sub-title {
+    margin-top: 0.2rem;
+    margin-left: 0.8rem;
+    font-size: 0.4rem;
+    color: #cecece;
+}
+
+.fc-news-detail__title .fc-news-detail__page {
+    position: absolute;
+    right: 0;
+    bottom: 6px;
+    z-index: 2;
+    font-size: 0.4rem;
+    color: #333333;
+}
+
+.fc-news-detail__content p {
+    font-size: 0.6rem;
+    line-height: 0.8rem;
+}
+
+.fc-news-detail__title .fc-news-detail__page a {
+    color: #333333;
+    padding: 4px 0.8rem;
+}
+
+.fc-news-detail__right {
+    overflow: hidden;
+    width: 35%;
+    height: 100%;
+    margin-left: 4%;
+    float: left;
+}
+
+.fc-news-detail__right .news-ad {
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+}
+
+.fc-news-detail__right .news-ad img {
+    width: 100%;
+    height: 100%;
+}
+
+.fc-news-detail__right .news-list {
+    height: 100%;
+    margin-top: 1rem;
+    padding: 1rem 1.5rem;
+    background: #fff;
+}
+
+dl {
+    display: block;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+}
+
+.fc-news-detail__right .news-list dt {
+    padding-bottom: 0.8rem;
+    margin-bottom: 0.8rem;
+    border-bottom: 1px solid #cecece;
+    text-align: left;
+    font-size: 0.6rem;
+}
+
+.fc-news-detail__right .news-list a {
+    font-size: 0.6rem;
+}
+
+.fc-news-detail__right .news-list dd {
+    margin: 0 0 8px;
+    line-height: 1.2rem;
+    font-size: 0.8rempx;
+    color: #646464;
+    text-align: left;
+}
+
 @media (min-width: 768px) {
+    .fc-news-detail__content p {
+        font-size: 0.6rem;
+        line-height: 1.2rem;
+    }
+    .fc-news-detail__title .title .sub-title span {
+        margin-right: 2rem;
+    }
     .fc-fc {
         font-size: 2rem;
         font-weight: 700;
