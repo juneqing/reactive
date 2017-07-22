@@ -355,7 +355,7 @@
 
 .shoufenqing {
     width: 100%;
-    height: auto;
+    height: 800px;
     margin: 0 auto;
     overflow: hidden;
 }
@@ -368,13 +368,6 @@
 }
 
 .shoufenqing-right {
-    overflow: hidden;
-    height: 100%;
-}
-
-.b1,
-.b2,
-.b3 {
     overflow: hidden;
     height: 100%;
 }
@@ -408,14 +401,14 @@
 }
 
 .shoufenqing-right-box h1 {
-    font-size: 1rem;
+    font-size: 0.8rem;
     color: #333;
     margin-top: 1.5rem;
 }
 
 .shoufenqing-right-box p {
     margin-top: 1rem;
-    font-size: 0.7rem;
+    font-size: 0.6rem;
     color: #333;
     line-height: 1rem;
     letter-spacing: 0.1rem;
