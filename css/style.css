@@ -436,11 +436,12 @@
 .fq-box-1 ul li {
     line-height: 0.8rem;
     color: #333;
-    font-size: 0.4rem;
+    font-size: 0.6rem;
     margin-top: 0.2rem;
     text-align: left;
     width: 100%;
     cursor: pointer;
+    padding: 0.2rem 0;
 }
 
 .fc-understand-bg2 {
